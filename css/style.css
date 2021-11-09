@@ -1,0 +1,32 @@
+body {
+    background-color: #183A4a;
+}
+
+.list{
+    display: flex;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-weight: bold;
+    background-color: #3b86Ac;
+
+}
+
+.box-3{
+    background-color: #5fd2a4;
+}
+
+.box-5{
+    background-color: #f8d277;
+}
+
+.box-3-5{
+    background-color: #de5470;
+}
