@@ -18,12 +18,12 @@ for (let box = 1; box <= 100; box++){
         let boxToInsert = `<li class="box box-3">Fizz</li>`;
         containerBox.innerHTML += boxToInsert;
     } 
-    // Se è un multiplo di 5 lo coloro e inserisco Fizz
+    // Se è un multiplo di 5 lo coloro e inserisco buzz
     else if (box % 5 == 0){
         let boxToInsert = `<li class="box box-5">buzz</li>`;
         containerBox.innerHTML += boxToInsert;
     }  
-
+    // Altrimenti inserisco il numero corrispondente e lascoi il colore box.
     else{
         let boxToInsert = `<li class="box">${box}</li>`;
         containerBox.innerHTML += boxToInsert;

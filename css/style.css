@@ -4,6 +4,8 @@ body {
 
 .list{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -13,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
+    margin: 10px;
     font-weight: bold;
     background-color: #3b86Ac;
 
